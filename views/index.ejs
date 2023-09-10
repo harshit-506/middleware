@@ -7,8 +7,15 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1 class="text">Home</h1>
-        <p class="text">Hello <%=locals.name %></p>
+        <main>
+      <form method="post" action="/contact">
+        <h1>Contact Now</h1>
+        <input type="text" name="name"placeholder="Name">
+        <input type="email" name="email"placeholder="email">
+        <button type="submit">Send</button>
+      </form>
+      </main>
+
        <script src="index.js"></script>
     </body>
 </html>
